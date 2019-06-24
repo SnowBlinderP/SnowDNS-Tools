@@ -1,4 +1,3 @@
 # SnowDNS Tools Collection
-[![Release](https://jitpack.io/v/SnowBlinderP/SnowDNS-Tools.svg)]
-(https://jitpack.io/#SnowBlinderP/SnowDNS-Tools)
+[(https://jitpack.io/v/SnowBlinderP/SnowDNS-Tools.svg)]
 * Includes Frequently used Methods and Software
