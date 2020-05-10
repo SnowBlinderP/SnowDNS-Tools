@@ -111,6 +111,11 @@
 
     </build>
     <repositories>
+         <repository>
+    <id>gitlab-maven</id>
+    <url>https://git.snowdns.de/api/v4/projects/PROJECT_ID/packages/maven</url>
+  </repository>
+
    <repository>
         <id>jitpack.io</id>
         <url>https://jitpack.io</url>
@@ -119,11 +124,11 @@
 <distributionManagement>
   <repository>
     <id>gitlab-maven</id>
-    <url>https://gitlab.com/api/v4/projects/${env.CI_PROJECT_ID}/packages/maven</url>
+    <url>https://git.snowdns.de/api/v4/projects/${env.CI_PROJECT_ID}/packages/maven</url>
   </repository>
   <snapshotRepository>
     <id>gitlab-maven</id>
-    <url>https://gitlab.com/api/v4/projects/${env.CI_PROJECT_ID}/packages/maven</url>
+    <url>https://git.snowdns.de/api/v4/projects/${env.CI_PROJECT_ID}/packages/maven</url>
   </snapshotRepository>
 </distributionManagement>
 </project>
