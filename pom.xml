@@ -7,12 +7,6 @@
     <groupId>snowdns.de</groupId>
     <artifactId>toolscollection</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <repositories>
-        <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
-        </repository>
-    </repositories>
     <dependencies>
     <dependency>
         <groupId>io.sentry</groupId>
@@ -121,6 +115,10 @@
     <id>gitlab-maven</id>
     <url>https://gitlab.com/api/v4/projects/${env.CI_PROJECT_ID}/packages/maven</url>
   </repository>
+   <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
 </repositories>
 <distributionManagement>
   <repository>
